@@ -24,5 +24,10 @@ namespace Wpf_Zaharov_PR1
         {
             InitializeComponent();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Проивет,группа ИСП!");
+        }
     }
 }

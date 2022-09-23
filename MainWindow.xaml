@@ -15,5 +15,9 @@
                 </LinearGradientBrush>
             </Button.Background>
         </Button>
+        <Canvas>
+            <Button x:Name="Win1" Canvas.Left="10" Canvas.Top="10" Height="50" Width="100" Content="Win1" Click="Win1_Click"></Button>
+
+        </Canvas>
     </Grid>
 </Window>

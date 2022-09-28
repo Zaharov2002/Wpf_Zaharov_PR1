@@ -13,6 +13,5 @@
                 <GradientStop Color="#FF0026F9" Offset="0"/>
             </RadialGradientBrush>
         </Grid.Background>
-        
     </Grid>
 </Window>

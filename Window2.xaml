@@ -5,15 +5,15 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Wpf_Zaharov_PR1"
         mc:Ignorable="d"
-        Title="Window2" Height="450" Width="800">
+        Title="Window2" Height="250" Width="400">
     <Grid>
-        <Grid.Background>
-            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
-                <GradientStop Color="Black"/>
-                <GradientStop Color="#FF0026F9" Offset="1"/>
-            </LinearGradientBrush>
-        </Grid.Background>
-        
-        
+        <Canvas>
+            <Label Canvas.Left="10" Canvas.Top="10" Content="Регистрация пользователя"/>
+            <Label Canvas.Left="10" Canvas.Top="40" Content="ФИО"/>
+            <TextBox Canvas.Left="70" Canvas.Top="40" Width="200"/>
+            <Label Canvas.Left="10" Canvas.Top="70" Content="Email"/>
+            <TextBox Canvas.Left="70" Canvas.Top="70" Width="200"/>
+            <Button Canvas.Right="50" Canvas.Bottom="100" Content="Зарегистрироваться"/>
+        </Canvas>
     </Grid>
 </Window>
